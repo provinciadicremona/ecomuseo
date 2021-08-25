@@ -1,0 +1,10 @@
+{{ define "main" }}
+            <div class="columns">
+                <main class="column pagina-sx">
+                    <h1 class="text-primary">{{ .Title }}</h1>
+                    <p class="tile-subtitle text-gray text-small"><i class="icon icon-calendar centered"></i>&nbsp;Ultimo aggiornamento: {{ dateFormat "01 Jan 2006" .Date.Local }}</p>
+                    {{ .Content }}
+                </main><!-- Fine Colonna di sinistra -->
+                {{ partial "page-navigation" . }}
+            </div>
+{{ end}}

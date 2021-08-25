@@ -1,0 +1,3 @@
+{{ define "main" }}
+    Questa &egrave; la pagina elenco.
+{{ end}}

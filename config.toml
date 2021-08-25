@@ -1,0 +1,5 @@
+baseURL = 'https://www.provincia.cremona.it/ecomuseo'
+DefaultContentLanguage = "it"
+LanguageCode = 'it-it'
+title = 'Il territorio come ecomuseo'
+dateFormat = "2 Jan 2006"

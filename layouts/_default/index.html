@@ -1,0 +1,59 @@
+{{ define "main" }}
+<div class="columns">
+                <div class="column home-sx">
+                    <figure class="hero-figure">
+                        <a href="ecomuseo/ecomuseo"><img class="img-responsive" src="img/home/uccellino860x484.jpg" alt="Immagine uccellino"></a>
+                        <figcaption class="h3"><a href="ecomuseo/ecomuseo">L'Ecomuseo della Provincia di Cremona</a></figcaption>
+                    </figure>
+                    <br class="divider">
+                    <h2 class="h3">Novit&agrave; ed iniziative</h2>
+                    {{  with .Site.GetPage "section" "novita"}}
+                        {{ range first 5 .Pages}}
+                    <article class="tile tile-centered">
+                        <div class="tile-icon">
+                            <div class="example-tile-icon text-warning h1">
+                                <i class="icon icon-newspaper centered"></i>&nbsp;
+                            </div>
+                        </div>
+                        <div class="tile-content">
+                            <p class="tile-title"><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+                            <p class="tile-subtitle text-gray text-small"><i class="icon icon-calendar centered"></i>&nbsp;Pubblicata il {{ .Date.Format "2006-01-02"}}</p>
+                        </div>
+                    </article>
+                        {{end}}
+                    {{ end }}
+                </div><!-- Fine Colonna di sinistra -->
+                <div class="column home-dx">
+                    <article class="card">
+                        <div class="card-image">
+                            <a href="{{ .Site.BaseURL }}/percorso/percorso/" title="Continua..."><img src="img/home/scoiattolo480x220.jpg" class="img-responsive" alt="Percorso didattico"></a>
+                        </div>
+                        <div class="card-header">
+                            <div class="card-title h5">Percorso didattico</div>
+                            <div class="card-subtitle text-gray">Breve descrizione</div>
+                        </div>
+                        <div class="card-body">
+                           Elit facere ab aspernatur culpa porro Dicta eligendi sed voluptatem iure vero. Alias inventore minima voluptatibus iste tempora! Minima itaque delectus vero impedit assumenda illo laudantium tempora?
+                        </div>
+                        <div class="card-footer">
+                            <a href="{{ .Site.BaseURL }}/percorso/percorso/"><button class="btn btn-primary"><i class="icon icon-leaf centered"></i>&nbsp;Continua...</button></a>
+                        </div>
+                    </article>
+                    <br class="divider">
+                    <article class="card">
+                        <div class="card-image">
+                            <a href="{{ .Site.BaseURL }}/quaderni/" title="Consulta la biblioteca"><img src="img/home/quaderniEcomuseo480x220.jpg" class="img-responsive" alt="I quaderni dell'Ecomuseo"></a>
+                        </div>
+                        <div class="card-header">
+                            <div class="card-title h5">I Quaderni dell'Ecomuseo</div>
+                            <div class="card-subtitle text-gray">Sottotitolo da inventare</div>
+                        </div>
+                        <div class="card-body">La Provincia di Cremona sta pubblicando una serie di Quaderni, ciascuno dedicato a uno dei nuclei territoriali dell'Ecomuseo del territorio.
+                        </div>
+                        <div class="card-footer">
+                            <a href="{{ .Site.BaseURL }}/quaderni/"><button class="btn btn-primary"><i class="icon icon-book centered"></i>&nbsp;Consulta la biblioteca...</button></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+{{ end}}

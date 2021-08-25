@@ -1,0 +1,13 @@
+{{ define "main" }}
+            <div class="columns">
+                <main class="column pagina-sx">
+                    <h1 class="text-primary">{{ .Title }}</h1>
+                    Sono nella pagina giusta
+                    {{ .Content }}
+                    {{ range .Site.Data.quaderni }}
+                        {{ .titolo }}
+                    {{ end }}
+                </main><!-- Fine Colonna di sinistra -->
+                {{ partial "page-navigation" }}
+            </div>
+{{ end}}

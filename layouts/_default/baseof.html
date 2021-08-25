@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="language" content="it">
+        <title>{{ .Title }}</title>
+        <meta name="description" content="{{ if .Params.description }} {{ .Params.description }} {{ else }} Il territorio come Ecomuseo {{ end }}">
+        <meta name="keywords" content="{{ if .Params.keywords }} {{ .Params.keywords }} {{ else }} ecomuseo, provincia, cremona, ambiente {{ end }}">
+        <meta name="author" content="Claudio Roncaglio">
+        <meta name="copyright" content="Provincia di Cremona">
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="resource-type" content="document" />
+        <meta name="distribution" content="global" />
+        <link rel="alternate" type="application/rss+xml" title="Notizie dall'Ecomuseo della Provincia di Cremona" href="{{ .Site.BaseURL }}/novita/index.xml" />
+        <meta name="rating" content="general" />
+        <link rel="shortcut icon" href="{{ .Site.BaseURL }}/img/favicons/favicon.ico">
+        <link rel="icon" href="{{ .Site.BaseURL }}/img/favicons/favicon.png">
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/spectre.css" media="all">
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/spectre-exp.css" media="all">
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/icomoon/style.css" media="all">
+    </head>
+    <body>
+        <div class="testata">
+            <header class="navbar container grid-xl">
+                <section class="navbar-section">
+                    <a href="/" title="L'Ecomuseo della Provincia di Cremona"><img src="{{ .Site.BaseURL }}/img/logoEcomuseo80.png" alt="Logo Ecomuseo" /></a>
+                    &nbsp;
+                    <span class="testata-titolo">&nbsp;Il territorio come Ecomuseo</span>
+                </section>
+                <section class="navbar-section">
+                    <form action="https://duckduckgo.com/">
+                        <input type="hidden" name="sites" value="ecomuseo.provincia.cremona.it">
+                        <div class="input-group input-inline">
+                            <input class="form-input" type="text" name="q" placeholder="cerca">
+                            <button class="btn btn-error input-group-btn s-rounded" type="submit"><span class="icon icon-search"></span></button>&nbsp;
+                        </div>
+                    </form>
+                    <div class="hide-md">
+                        &nbsp;<a href="https://boscodidattico.provincia.cremona.it" title="Vai al sito del Bosco Didattico"><img src="{{ .Site.BaseURL }}/img/logoBosco80.png" alt="Logo del Bosco Didattico"></a>
+                    </div>
+                </section>
+            </header> 
+        </div>
+        <br class="divider">
+        <div class="container grid-xl">
+            {{ block "main" . }}
+
+            {{ end }}
+        </div> <!-- fine container -->
+        <br class="divider" />
+        <footer class="bg-dark">
+            <div class="container grid-xl">
+                <div class="columns">
+                    <div class="navbar column col-12">
+                        <section class="navbar-section">
+                            <a href="https://ecomuseo.provincia.cremona.it"><img src="{{ .Site.BaseURL }}/img/logoEcomuseo80bn.png" alt="Provincia di Cremona"></a>
+                            &nbsp;<span class="footer-titolo">Il territorio come ecomuseo</span>
+                        </section>
+                        <section class="navbar-section">
+                            <a href="#top" tile="Torna ad inizio pagina"><span class="icon-circle-up aria-hidden-true h1"></span></a>
+                        </section>
+                    </div>
+                    <div class="column col-12">
+                        <hr>
+                        <br>
+                    </div>
+                    <div class="column footer-info">
+                        <h5>Contatti:</h5>
+                        <address>
+                            <b>Il territorio come Ecomuseo</b>
+                            <br />Settore Ambiente e Territorio
+                            <br />Provincia di Cremona
+                            <br />C.so Vittorio Emanuele II, 17 - 26100 Cremona
+                            <br />Posta elettronica: <a href="mailto:ecomuseo@provincia.cremona.it">ecomuseo@provincia.cremona.it</a>
+                            <br />Tel: <a href="tel:+39 0372 406447">+39 0372 406447</a>&nbsp;&nbsp;<a href="tel:+39 0372 406449">+39 0372 406449</a>
+                            <br />Casella PEC: <a href="mailto:protocollo@provincia.cr.it">protocollo@provincia.cr.it</a><br />
+                            C.F. 80002130195
+                        </address>
+                        <hr class="show-md" />
+                    </div>
+                    <div class="column footer-info">
+                        <h5>Info:</h5>
+                        <p><a href="{{.Site.BaseURL}}/percorso/aperture">Dove siamo</a><br />
+                        <a href="#">bla bla bla</a><br />
+                        <a href="#">bla bla bla</a></p>
+                    </div>
+                    <div class="column footer-info">
+                        <h5>Siti tematici:</h5>
+                        <p><a href="https://boscodidattico.provincia.cremona.it">Bosco Didattico della Provincia di Cremona</a><br />
+                        <a href="https://www.atlanteambientale.it">Atlante Ambientale</a><br />
+                        <a href="https://www.provincia.cremona.it/ambiente/">Provincia di Cremona - Ambiente</a></p>
+                    </div>
+                    <div class="column col-12">
+                        <hr>
+                        <p>
+                        <a href="{{ .Site.BaseURL }}/novita/index.xml"><span class="icon-rss2"></span>&nbsp;Feed RSS</a>&nbsp;&nbsp;&nbsp;
+                        <a href="#">Crediti</a>&nbsp;&nbsp;&nbsp;
+                        <a href="#">Dichiarazione di Accessibilità</a>&nbsp;&nbsp;&nbsp;
+                        <a href="#">Privacy</a>&nbsp;&nbsp;&nbsp;
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

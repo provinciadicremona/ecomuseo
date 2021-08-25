@@ -1,0 +1,19 @@
+{{ define "main" }}
+            <div class="columns">
+                <main class="column pagina-sx">
+                    <h1 class="text-primary">{{ .Title }}</h1>
+                    <p class="tile-subtitle text-gray text-small"><i class="icon icon-calendar centered"></i>&nbsp;Pubblicata il {{ dateFormat "01 Jan 2006" .Date.Local }}</p>
+                    {{ .Content }}
+                    <div class="columns">
+                        <div class="column col-3 text-center">
+                    {{if .NextInSection}}<a href="{{.NextInSection.Permalink}}" class="h5"><i class="icon icon-backward2"></i>&nbsp;Successiva</a>{{end}}
+                        </div>
+                        <div class="column col-6 text-center"><a href="{{.Site.BaseURL}}/novita" class="h5">Indice</a></div>
+                        <div class="column col-3 text-center">
+                    {{if .PrevInSection}}<a href="{{.PrevInSection.Permalink}}" class="h5">Precedente&nbsp;<i class="icon icon-forward3 centered"></i></a>{{end}}
+                        </div>
+                    </div>
+                </main><!-- Fine Colonna di sinistra -->
+                {{ partial "page-navigation" . }}
+            </div>
+{{ end}}
