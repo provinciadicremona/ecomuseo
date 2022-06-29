@@ -1,5 +1,5 @@
 ---
-title: "Quaderni"
+title: "I Quaderni dell'Ecomuseo"
 date: 2021-08-20T09:43:22+02:00
 draft: false
 ---

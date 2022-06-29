@@ -7,7 +7,7 @@
                     {{ range .Site.Data.quaderni }}
                         <div class="column col-4 col-md-6 col-sm-12">
                             <article id="{{ .pdf }}" class="text-center">
-                                <h5><a href="quaderni/pdf/{{ .pdf }}">{{ .titolo }}</a></h5>
+                                <h5><a href="pdf/{{ .pdf }}">{{ .titolo }}</a></h5>
                                 <a href="pdf/{{ .pdf }}"><img src="img/{{ .immagine }}" alt="{{ .titolo }}"></a>
                                 <p>{{ .desc }}</p>
                             </article>

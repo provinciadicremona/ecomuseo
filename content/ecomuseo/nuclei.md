@@ -8,20 +8,22 @@ L'Ecomuseo del territorio cremonese è costituito da vari siti distribuiti nel t
 
 {{< ecoFigure src="mappa_ecomuseo.png" alt="Mappa dei nuclei dell'Ecomuseo" caption="Mappa dei nuclei dell'Ecomuseo" >}}
 
+L'elenco completo dei nuclei territoriali finora individuati comprende una ventina di siti, per molti dei quali sono stati preparati materiali descrittivi, tra cui [quaderni monografici di approfondimento](/quaderni/).
+
 ### Elenco dei nuclei
-- Nucleo 1 - Il nodo idraulico delle Tombe Morte;
-- Nucleo 2 - La strada romana Mediolanum - Cremona;
-- Nucleo 3 - L'insediamento urbano di San Rocco di Dovera;
-- Nucleo 4 - I prati del Pandinasco;
+- [Nucleo 1 - Il nodo idraulico delle Tombe Morte](/ecomuseo/flyers/1_Tombe.pdf);
+- [Nucleo 2 - La strada romana Mediolanum - Cremona](/ecomuseo/flyers/2_StradaRomana.pdf);
+- [Nucleo 3 - L'insediamento urbano di San Rocco di Dovera](/ecomuseo/flyers/3_Dovera.pdf);
+- [Nucleo 4 - I prati del Pandinasco](/ecomuseo/flyers/4_Pandinasco.pdf);
 - Nucleo 5 - Ambienti umidi artificiali: le cave d'argilla;
-- Nucleo 6 - Le centrali idroelettriche di Mirabello Ciria e alla Rezza;
-- Nucleo 7 - I fontanili di Farinate;
-- Nucleo 8 - Le vallecole d'erosione di Credera-Rubbiano e Moscazzano;
+- [Nucleo 6 - Le centrali idroelettriche di Mirabello Ciria e alla Rezza](/ecomuseo/flyers/6_Mirabello.pdf);
+- [Nucleo 7 - I fontanili di Farinate](/ecomuseo/flyers/7_Farinate.pdf);
+- [Nucleo 8 - Le vallecole d'erosione di Credera-Rubbiano e Moscazzano](/ecomuseo/flyers/8_Credera.pdf);
 - Nucleo 9 - Il pianalto di Romanengo;
-- Nucleo 10 - L'azienda agristuristica;
+- [Nucleo 10 - L'azienda agristuristica](/ecomuseo/flyers/10_Bressanoro.pdf);
 - Nucleo 11 - Un modello di allevamento sostenibile;
 - Nucleo 12 - Attività produttive ecocompatibili;
-- Nucleo 13 - I bastioni di Pizzighettone e il territorio rurale circostante;
+- [Nucleo 13 - I bastioni di Pizzighettone e il territorio rurale circostante](/ecomuseo/flyers/13_Pizzighettone.pdf);
 - Nucleo 14 - Il monumento naturale dei Lagazzi di Piadena;
 - Nucleo 15 - La golena padana e il fenomeno dei bodri;
 - Nucleo 16 - Gli argini del Po.
