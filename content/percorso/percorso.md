@@ -7,7 +7,7 @@ draft: false
 ---
 Il progetto il territorio come ecomuseo si arricchisce degli spazi espositivi della **Cascina Stella** - una tipica cascina cremonese all'interno del Bosco didattico di Castelleone, ristrutturata dalla Provincia di Cremona e divenuta **sede espositiva del museo laboratorio del paesaggio padano**.
 
-{{< ecoFigure src="smithsonian-museum-960x450.jpg" alt="Pannelli e vetrinette espositive sulla storia del paesaggio Cremonese" caption="Pannelli e vetrinette espositive sulla storia del paesaggio Cremonese" >}}
+{{< ecoFigure src="internoPercorsoDidattico.jpg" alt="Pannelli e vetrinette espositive sulla storia del paesaggio Cremonese" caption="Pannelli e vetrinette espositive sulla storia del paesaggio Cremonese" >}}
 
 La struttura è stata ideata per fornire un chiaro strumento di comprensione delle **dinamiche evolutive** e dei **processi fisici e naturali**, che insieme alle **trasformazioni antropiche**, hanno portato alla **formazione del paesaggio contemporaneo**.
 

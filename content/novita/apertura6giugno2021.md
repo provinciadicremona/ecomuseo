@@ -1,6 +1,7 @@
 ---
 title: "Domenica 6 giugno il Bosco Didattico di Castelleone è a disposizione del pubblico"
 date: 2021-06-06T16:45:05+02:00
+lastmod: 2022-06-28
 draft: false
 ---
 

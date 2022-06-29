@@ -8,6 +8,7 @@ draft: false
 
 Tombe morte - Tredici ponti - Genivolta, CremonaIl progetto presenta una serie di **nuclei territoriali** da frequentare, apprezzare e capire come un enorme **museo vivente** creato nel tempo dalla natura e dall'uomo ed in continua evoluzione.
 
+{{< ecoFigure src="cartelloSentiero.jpg" alt="Immagine di un sentiero nel nucleo delle Fughe" caption="Una delle tabelle illustrative dei nuclei posizionate sul territorio" >}}
 Un **museo "diffuso"**, la cui esplorazione risulta affascinante quanto quella delle raccolte tradizionali: dedicato al paesaggio, mostra come **l'ambiente naturale si è modificato per opera dell'uomo** nel corso del tempo.
 
 Nell'area dell'Ecomuseo sono evidenziati gli elementi ambientali tipici e le componenti antropiche che sono memoria del lavoro di centinaia di secoli: insediamenti, campi, manufatti, edifici, vie terrestri e vie d'acqua, fabbriche, macchinari e apparecchiature di ogni genere, toponimi, segni di ripartizioni e di processi di appropriazione del territorio, bonifiche, acquedotti e irrigazioni ....
