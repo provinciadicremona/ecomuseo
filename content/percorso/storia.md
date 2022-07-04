@@ -5,3 +5,6 @@ draft: false
 ---
 
 All'interno della cascina diversi ambienti espositivi illustrano la **storia del paesaggio padano**: un viaggio lungo quasi due milioni di anni porta i visitatori a conoscere l'**evoluzione della nostra pianura** dal periodo in cui ancora non esisteva, quando al suo posto si apriva il grande **Golfo Padano**, sino ai giorni nostri. 
+
+
+{{< ecoFigure src="storia-paesaggio-padano.jpg" alt="Foto di una parte dell'esposizione" caption="Sezione del museo dedicata alla storia del paesaggio padano" >}}

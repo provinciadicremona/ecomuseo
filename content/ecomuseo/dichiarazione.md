@@ -8,7 +8,7 @@ Il progetto intitolato "Il territorio come ecomuseo" si propone come piano **d'a
 
 Paesaggio padano: fiume Po e fioriLa prospettiva futura è quella di ottenere un **riequilibrio biologico diffuso**, che possa configurarsi come uno stadio climax, caratterizzato da ampie prerogative si stabilità temporale, perseguendo significativi obiettivi di sostenibilità, tanto intrinseca quanto riferita a **nuovi e più congruenti modelli di sviluppo**, economici, sociali e culturali, delle comunità umane locali che operano in tale contesto ambientale.
 
-{{< ecoFigure src="paesaggio_padano_abitati_fuori_golena.jpg" alt="Paesaggio padano: abitati fuori golena nella Provincia di Cremona" caption="Paesaggio padano: abitati fuori golena nella Provincia di Cremona" >}}
+{{< ecoFigure src="agricoltura.jpg" alt="Il territorio provinciale è in gran parte dedicato all'attività agricola" caption="Il territorio provinciale è in gran parte dedicato all'attività agricola" >}}
 
 Parallelamente all'analisi della componente biologica, il progetto si propone di indagare la **componente antropica del paesaggio**, nella sua evoluzione storica, ponendone in evidenza gli elementi portanti, che formano l'orditura di un paesaggio agrario tradizionale, conservatisi quasi immutati nel tempo a dispetto delle fisiologiche modificazioni succedutesi nei secoli perr rispondere a esigenze contingenti.
 

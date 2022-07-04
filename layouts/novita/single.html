@@ -4,6 +4,7 @@
                     <h1 class="text-primary">{{ .Title }}</h1>
                     <p class="tile-subtitle text-gray text-small"><i class="icon icon-calendar centered"></i>&nbsp;Pubblicata il {{ dateFormat "01 Jan 2006" .Date.Local }}</p>
                     {{ .Content }}
+                    <br>
                     <div class="columns">
                         <div class="column col-3 text-center">
                     {{if .NextInSection}}<a href="{{.NextInSection.Permalink}}" class="h5"><i class="icon icon-backward2"></i>&nbsp;Successiva</a>{{end}}
