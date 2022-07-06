@@ -5,7 +5,7 @@
                     <p>Questo &egrave; l'elenco delle notizie pubblicate in ordine temporale inverso. Alla fine delle metto la paginazione.<br>
                     Aprendo la news, apparir&agrave; come una normale pagina  con in fondo i link per: news successiva, precedente e torna ad elenco.</p>
                     {{ .Content }}
-                    {{ range (.Paginator 2).Pages }}
+                    {{ range (.Paginator 3).Pages }}
                      <article class="tile" id="id-novita">
                         <div class="tile-icon">
                             <div class="example-tile-icon text-warning h1">

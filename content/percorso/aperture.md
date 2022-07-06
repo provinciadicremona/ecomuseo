@@ -1,9 +1,9 @@
 ---
-title: "Giorni di apertura"
+title: "Dove siamo"
 date: 2021-08-19T17:13:04+02:00
 draft: false
 ---
-
+## Giorni di apertura
 Il percorso didattico della Cascina Stella è aperto ogni seconda domenica del mese dalle 14 alle 18 (escluso agosto).
 
 ## Come arrivare

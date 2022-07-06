@@ -24,6 +24,15 @@
         <div class="d-hide"><a href="#contenuto">Vai al contenuto della pagina</a></div>
         <div class="testata" id="top">
             <header class="navbar container grid-xl">
+                <nav class="mobile-menu">
+                    <ul class="mobile-menu__items">
+                        <li><a href="{{.Site.BaseURL}}/"><i class="icon icon-home"></i>&nbsp;Home</a></li>
+                        <li><a href="{{.Site.BaseURL}}/ecomuseo/ecomuseo/">Ecomuseo</a></li>
+                        <li><a href="{{.Site.BaseURL}}/percorso/percorso/">Il percorso didattico</a></li>
+                        <li><a href="{{.Site.BaseURL}}/novita/">Novit&agrave; ed iniziative</a></li>
+                        <li><a href="{{.Site.BaseURL}}/percorso/aperture/">Dove siamo</a></li>
+                    </ul>
+                </nav>
                 <section class="navbar-section">
                     <a href="/" title="L'Ecomuseo della Provincia di Cremona"><img src="{{ .Site.BaseURL }}/img/logoEcomuseo80.png" alt="Logo Ecomuseo" /></a>
                     &nbsp;
@@ -31,26 +40,34 @@
                 </section>
                 <section class="navbar-section">
                     <form action="https://duckduckgo.com/" class="hide-md">
-                        <input type="hidden" name="sites" value="www.provincia.cremona.it">
+                        <input type="hidden" name="sites" value="ecomuseo.provincia.cremona.it">
                         <div class="input-group input-inline">
-                            <label class="cerca-label text-success h6" for="cerca-barra">Cerca nel sito &nbsp;</label>
+                            <label class="cerca-label text-error h6" for="cerca-barra">Cerca nel sito &nbsp;</label>
                             <input class="form-input" type="text" name="q" id="cerca-barra" placeholder="Cerca..." aria-label="Cerca nel sito" title="Cerca nel sito">
                             <button class="btn btn-search input-group-btn btn-error" type="submit" aria-label="Cerca" tab-index="0"><span class="icon icon-search"></span></button>&nbsp;
                         </div>
                     </form>
-                    <!-- <form action="https://duckduckgo.com/"> -->
-                    <!--     <input type="hidden" name="sites" value="ecomuseo.provincia.cremona.it"> -->
-                    <!--     <div class="input-group input-inline"> -->
-                    <!--         <input class="form-input" type="text" name="q" placeholder="cerca"> -->
-                    <!--         <button class="btn btn-error input-group-btn s-rounded" type="submit"><span class="icon icon-search"></span></button>&nbsp; -->
-                    <!--     </div> -->
-                    <!-- </form> -->
-                    <div class="hide-md">
+                    <button class="btn btn-search input-group-btn show-md btn-error s-circle" id="md-search" type="submit" aria-label="Visualizza ricerca"  onclick=toggleSearchBox() onkeydown=toggleSearchBox() tab-index="0"><span class="icon icon-search"></span></button>
+                    <div id="hamburger" class="show-md">
+                        <div id="one" class="line"></div>
+                        <div id="two" class="line"></div>
+                        <div id="three" class="line"></div>
                     </div>
                 </section>
             </header> 
         </div>
         <br class="divider">
+        <div id="mobileSearch" class="columns">
+            <form action="https://duckduckgo.com/" class="column col-8 col-mx-auto">
+                <input type="hidden" name="sites" value="ecomuseo.provincia.cremona.it">
+                <label for="cerca-mobile">Cerca nel sito&nbsp;</label>
+                <div class="input-group input-inline">
+                    <input class="form-input col-12" type="text" name="q" id="cerca-mobile" placeholder="cerca" aria-label="Cerca nel sito" title="Cerca nel sito">
+                    <button class="btn btn-search btn-error input-group-btn" type="submit" aria-label="Cerca" tab-index="0"><span class="icon icon-search"></span></button>&nbsp;
+                </div>
+            </form>
+            <br class="divider">
+        </div>
         <div class="container grid-xl">
             {{ block "main" . }}
 
@@ -112,4 +129,22 @@
             </div>
         </footer>
     </body>
+    <script>
+        function toggleSearchBox() {
+            var x = document.getElementById("mobileSearch");
+            if (x.style.display === "none" || x.style.display === '') {
+                x.style.display = "block";
+                document.getElementById("cerca-mobile").focus();
+            } else {
+                x.style.display = "none";
+            }
+        } 
+    </script>
+    <script>
+        // Mostra il menu per il mobile
+        document.getElementById("hamburger").addEventListener("click", function(){
+            this.classList.toggle("active");
+            document.querySelector(".mobile-menu").classList.toggle("active");
+        });
+    </script>
 </html>
