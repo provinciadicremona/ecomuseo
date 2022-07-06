@@ -330,9 +330,9 @@ h6 {
 }
 
 .h1,
-.testata-titolo,
 .h2,
 .h3,
+.testata-titolo,
 footer .footer-titolo,
 .h4,
 .h5,
@@ -341,8 +341,7 @@ footer .footer-titolo,
 }
 
 h1,
-.h1,
-.testata-titolo {
+.h1 {
   font-size: 2rem;
 }
 
@@ -353,6 +352,7 @@ h2,
 
 h3,
 .h3,
+.testata-titolo,
 footer .footer-titolo {
   font-size: 1.4rem;
 }
@@ -525,7 +525,7 @@ dl dd {
 
 .btn:focus,
 .btn:hover {
-  background: #f5c8c8;
+  background: #003049;
   border-color: #c92626;
   text-decoration: none;
 }
@@ -1464,17 +1464,17 @@ video.video-responsive::before {
 [class~="col-"].col-11,
 [class~="col-"].col-10,
 [class~="col-"].col-9,
-.pagina-sx[class~="col-"],
 [class~="col-"].col-8,
 .home-sx[class~="col-"],
+.pagina-sx[class~="col-"],
 [class~="col-"].col-7,
 [class~="col-"].col-6,
 [class~="col-"].col-5,
 [class~="col-"].col-4,
 footer .footer-info[class~="col-"],
 .home-dx[class~="col-"],
-[class~="col-"].col-3,
 .pagina-dx[class~="col-"],
+[class~="col-"].col-3,
 [class~="col-"].col-2,
 [class~="col-"].col-1,
 [class~="col-"].col-auto,
@@ -1486,12 +1486,12 @@ footer .footer-info[class~="col-"],
 .col-10.testata,
 .column.col-9,
 .col-9.testata,
-.testata.pagina-sx,
-.column.pagina-sx,
 .column.col-8,
 .col-8.testata,
 .testata.home-sx,
+.testata.pagina-sx,
 .column.home-sx,
+.column.pagina-sx,
 .column.col-7,
 .col-7.testata,
 .column.col-6,
@@ -1502,12 +1502,12 @@ footer .footer-info[class~="col-"],
 .col-4.testata,
 footer .testata.footer-info,
 .testata.home-dx,
+.testata.pagina-dx,
 footer .column.footer-info,
 .column.home-dx,
+.column.pagina-dx,
 .column.col-3,
 .col-3.testata,
-.testata.pagina-dx,
-.column.pagina-dx,
 .column.col-2,
 .col-2.testata,
 .column.col-1,
@@ -1531,13 +1531,13 @@ footer .column.footer-info,
   width: 83.33333333%;
 }
 
-.col-9,
-.pagina-sx {
+.col-9 {
   width: 75%;
 }
 
 .col-8,
-.home-sx {
+.home-sx,
+.pagina-sx {
   width: 66.66666667%;
 }
 
@@ -1555,12 +1555,12 @@ footer .column.footer-info,
 
 .col-4,
 footer .footer-info,
-.home-dx {
+.home-dx,
+.pagina-dx {
   width: 33.33333333%;
 }
 
-.col-3,
-.pagina-dx {
+.col-3 {
   width: 25%;
 }
 
@@ -2116,13 +2116,13 @@ footer .footer-info,
 
 .menu .menu-item > a:focus,
 .menu .menu-item > a:hover {
-  background: #f5c8c8;
+  background: #003049;
   color: #d62828;
 }
 
 .menu .menu-item > a:active,
 .menu .menu-item > a.active {
-  background: #f5c8c8;
+  background: #003049;
   color: #d62828;
 }
 
@@ -2380,16 +2380,16 @@ a.text-primary:visited {
 }
 
 .text-secondary {
-  color: #f2bcbc !important;
+  color: #00263a !important;
 }
 
 a.text-secondary:focus,
 a.text-secondary:hover {
-  color: #eea6a6;
+  color: #001520;
 }
 
 a.text-secondary:visited {
-  color: #f6d1d1;
+  color: #003753;
 }
 
 .text-gray {
@@ -2476,7 +2476,8 @@ a.text-error:visited {
 }
 
 .bg-secondary {
-  background: #f5c8c8 !important;
+  background: #003049 !important;
+  color: #fff;
 }
 
 .bg-dark {
@@ -2995,6 +2996,12 @@ nav h2 {
   background: #fcbf49;
   box-shadow: rgba(0, 0, 0, .35) 0 5px 15px;
   margin-bottom: 1rem;
+}
+
+.testata .cerca-label {
+  color: #d62828;
+  font-size: .8rem;
+  font-weight: 600;
 }
 
 .testata-titolo {

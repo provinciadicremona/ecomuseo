@@ -21,7 +21,8 @@
         <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/icomoon/style.css" media="all">
     </head>
     <body>
-        <div class="testata">
+        <div class="d-hide"><a href="#contenuto">Vai al contenuto della pagina</a></div>
+        <div class="testata" id="top">
             <header class="navbar container grid-xl">
                 <section class="navbar-section">
                     <a href="/" title="L'Ecomuseo della Provincia di Cremona"><img src="{{ .Site.BaseURL }}/img/logoEcomuseo80.png" alt="Logo Ecomuseo" /></a>
@@ -29,15 +30,22 @@
                     <span class="testata-titolo">&nbsp;Il territorio come Ecomuseo</span>
                 </section>
                 <section class="navbar-section">
-                    <form action="https://duckduckgo.com/">
-                        <input type="hidden" name="sites" value="ecomuseo.provincia.cremona.it">
+                    <form action="https://duckduckgo.com/" class="hide-md">
+                        <input type="hidden" name="sites" value="www.provincia.cremona.it">
                         <div class="input-group input-inline">
-                            <input class="form-input" type="text" name="q" placeholder="cerca">
-                            <button class="btn btn-error input-group-btn s-rounded" type="submit"><span class="icon icon-search"></span></button>&nbsp;
+                            <label class="cerca-label text-success h6" for="cerca-barra">Cerca nel sito &nbsp;</label>
+                            <input class="form-input" type="text" name="q" id="cerca-barra" placeholder="Cerca..." aria-label="Cerca nel sito" title="Cerca nel sito">
+                            <button class="btn btn-search input-group-btn btn-error" type="submit" aria-label="Cerca" tab-index="0"><span class="icon icon-search"></span></button>&nbsp;
                         </div>
                     </form>
+                    <!-- <form action="https://duckduckgo.com/"> -->
+                    <!--     <input type="hidden" name="sites" value="ecomuseo.provincia.cremona.it"> -->
+                    <!--     <div class="input-group input-inline"> -->
+                    <!--         <input class="form-input" type="text" name="q" placeholder="cerca"> -->
+                    <!--         <button class="btn btn-error input-group-btn s-rounded" type="submit"><span class="icon icon-search"></span></button>&nbsp; -->
+                    <!--     </div> -->
+                    <!-- </form> -->
                     <div class="hide-md">
-                        &nbsp;<a href="https://boscodidattico.provincia.cremona.it" title="Vai al sito del Bosco Didattico"><img src="{{ .Site.BaseURL }}/img/logoBosco80.png" alt="Logo del Bosco Didattico"></a>
                     </div>
                 </section>
             </header> 
@@ -58,7 +66,7 @@
                             &nbsp;<span class="footer-titolo">Il territorio come ecomuseo</span>
                         </section>
                         <section class="navbar-section">
-                            <a href="#top" tile="Torna ad inizio pagina"><span class="icon-circle-up aria-hidden-true h1"></span></a>
+                            <a href="#top" title="Torna ad inizio pagina"><span class="icon-circle-up aria-hidden-true h1"></span></a>
                         </section>
                     </div>
                     <div class="column col-12">
@@ -66,7 +74,7 @@
                         <br>
                     </div>
                     <div class="column footer-info">
-                        <h5>Contatti:</h5>
+                        <h2 class="h5">Contatti:</h2>
                         <address>
                             <b>Il territorio come Ecomuseo</b>
                             <br />Settore Ambiente e Territorio
@@ -80,13 +88,16 @@
                         <hr class="show-md" />
                     </div>
                     <div class="column footer-info text-center">
+                            <a href="https://boscodidattico.provincia.cremona.it" title="Vai al sito del Bosco Didattico"><img src="{{ .Site.BaseURL }}/img/logoBosco80.png" alt="Logo del Bosco Didattico"></a><br>
+                            <a href="https://boscodidattico.provincia.cremona.it">Bosco Didattico della Provincia di Cremona</a><br class="divider">
                         <a href="https://www.provincia.cremona.it"><img src="{{ .Site.BaseURL }}/img/logoProvCr.png" alt="Logo della Provincia di Cremona" title="Vai al sito della Provincia di Cremona"></a>
                     </div>
                     <div class="column footer-info">
-                        <h5>Siti collegati:</h5>
-                        <p><a href="https://boscodidattico.provincia.cremona.it">Bosco Didattico della Provincia di Cremona</a><br />
-                        <a href="https://www.atlanteambientale.it">Atlante Ambientale</a><br />
+                        <h2 class="h5">Altri Siti:</h2>
+                        <p><a href="https://www.atlanteambientale.it">Atlante Ambientale</a><br />
                         <a href="https://www.provincia.cremona.it/ambiente/">Provincia di Cremona - Ambiente</a></p>
+                        <div class="text-center">
+                        </div>
                     </div>
                     <div class="column col-12">
                         <hr>
