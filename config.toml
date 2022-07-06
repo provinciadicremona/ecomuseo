@@ -1,4 +1,4 @@
-baseURL = 'https://www.provincia.cremona.it/ecomuseo'
+baseURL = 'https://ecomuseo.provincia.cremona.it'
 DefaultContentLanguage = "it"
 LanguageCode = 'it-it'
 title = 'Il territorio come ecomuseo'
