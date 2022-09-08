@@ -1,4 +1,4 @@
 <figure class="figure">
-    <center><a href="{{.Get `pageLink`}}"><img class="img-responsive s-rounded" src="{{.Site.BaseURL}}/{{$.Page.Dir}}img/{{.Get `src`}}" alt="{{.Get `alt`}}"></a></center>
+    <center><a href="{{.Get `pageLink`}}"><img class="img-responsive s-rounded" src="{{.Site.BaseURL}}/{{$.Page.File.Dir}}img/{{.Get `src`}}" alt="{{.Get `alt`}}"></a></center>
     <figcaption class="figure-caption text-center text-italic"><a href="{{.Get `pageLink`}}">{{.Get `caption`}}</a></figcaption>
 </figure>

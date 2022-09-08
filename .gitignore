@@ -21,3 +21,5 @@ tmux-client-*.log
 
 # cartella di lavoro temporanea
 tmp
+
+.hugo_build.lock
