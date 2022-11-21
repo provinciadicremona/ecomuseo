@@ -9,6 +9,4 @@ Il percorso didattico della Cascina Stella è aperto ogni seconda domenica del m
 ## Come arrivare
 Per raggiungere il Bosco e l'Ecomuseo di Cascina Stella, dove ci sono posteggio e area pic-nic, è necessario percorrere la strada statale 415 Paullese sino all'altezza di Castelleone e seguire la freccia Bosco Didattico (di color marrone) presente tra i km 46 e 47, deviazione Gombito San Latino, poi a sinistra seguendo le indicazioni.
 
-{{< googlemaps urlMappa="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d179685.7413815533!2d9.761343!3d45.276304!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe3df4427cf6fe30!2sCascina%20Stella!5e0!3m2!1sit!2sit!4v1629466318367!5m2!1sit!2sit">}}
-
-
+{{< openstreetmaps urlMappa="https://www.openstreetmap.org/export/embed.html?bbox=9.754250049591066%2C45.27298381817507%2C9.768412113189699%2C45.27968045172964&amp;layer=mapnik&marker=45.276336008614926%2C9.76133108139038" linkMappaIngrandita="https://www.openstreetmap.org/?mlat=45.27634&amp;mlon=9.76133#map=17/45.27633/9.76133">}}
