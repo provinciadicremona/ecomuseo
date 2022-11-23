@@ -2,14 +2,15 @@
 <html lang="it">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <meta name="language" content="it">
         <title>{{ .Title }}</title>
         <meta name="description" content="{{ if .Params.description }} {{ .Params.description }} {{ else }} Il territorio come Ecomuseo {{ end }}">
         <meta name="keywords" content="{{ if .Params.keywords }} {{ .Params.keywords }} {{ else }} ecomuseo, provincia, cremona, ambiente {{ end }}">
-        <meta name="author" content="Claudio Roncaglio">
+        <meta name="author" content="Servizio Ambienti Naturali della Provincia di Cremona">
+        <meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-inline'">
         <meta name="copyright" content="Provincia di Cremona">
         <meta name="robots" content="index, follow">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="resource-type" content="document" />
         <meta name="distribution" content="global" />
@@ -42,7 +43,7 @@
                     <form action="https://duckduckgo.com/" class="hide-md">
                         <input type="hidden" name="sites" value="ecomuseo.provincia.cremona.it">
                         <div class="input-group input-inline">
-                            <label class="cerca-label text-error h6" for="cerca-barra">Cerca nel sito &nbsp;</label>
+                            <label class="cerca-label text-success h6" for="cerca-barra">Cerca nel sito &nbsp;</label>
                             <input class="form-input" type="text" name="q" id="cerca-barra" placeholder="Cerca..." aria-label="Cerca nel sito" title="Cerca nel sito">
                             <button class="btn btn-search input-group-btn btn-error" type="submit" aria-label="Cerca" tab-index="0"><span class="icon icon-search"></span></button>&nbsp;
                         </div>

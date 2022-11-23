@@ -3001,13 +3001,13 @@ nav h2 {
 }
 
 .testata .cerca-label {
-  color: #d62828;
+  color: #095835;
   font-size: .8rem;
   font-weight: 600;
 }
 
 .testata-titolo {
-  color: #d62828;
+  color: #095835;
   font-weight: 600; 
   text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
 }
@@ -3149,7 +3149,6 @@ address a[href^="tel:"]:before {
 }
 
 #hamburger .line {
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden; 
   background: #d62828;
   height: 7px;
