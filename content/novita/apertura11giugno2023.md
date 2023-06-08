@@ -1,6 +1,6 @@
 ---
-title: "Domenica 28 maggio 2023: apertura del Bosco Didattico di Castelleone"
-description: "Apertura del Bosco didattico di Castelleone del 28 maggio 2023"
+title: "Domenica 11 giugno 2023: apertura del Bosco Didattico di Castelleone"
+description: "Apertura del Bosco didattico di Castelleone dell'11 giugno 2023"
 keywords: "boscodidattico, castelleone, apertura, ecomuseo, provincia, cremona, ambiente"
 date: 2023-06-08T14:11:00+02:00
 lastmod: 2023-06-08T14:11:00+02:00
