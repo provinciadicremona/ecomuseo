@@ -8,7 +8,7 @@
         <meta name="description" content="{{ if .Params.description }} {{ .Params.description }} {{ else }} Il territorio come Ecomuseo {{ end }}">
         <meta name="keywords" content="{{ if .Params.keywords }} {{ .Params.keywords }} {{ else }} ecomuseo, provincia, cremona, ambiente {{ end }}">
         <meta name="author" content="Servizio Ambienti Naturali della Provincia di Cremona">
-        <meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-inline'">
+        <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-inline'"> -->
         <meta name="copyright" content="Provincia di Cremona">
         <meta name="robots" content="index, follow">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -20,6 +20,21 @@
         <link rel="icon" href="{{ .Site.BaseURL }}/img/favicons/favicon.png">
         <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/spectre.css" media="all">
         <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/icomoon/style.css" media="all">
+        <!-- Matomo Locale -->
+        <script>
+          var _paq = window._paq = window._paq || [];
+          /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+          _paq.push(['trackPageView']);
+          _paq.push(['enableLinkTracking']);
+          (function() {
+            var u="https://matomo.provincia.cremona.it/";
+            _paq.push(['setTrackerUrl', u+'matomo.php']);
+            _paq.push(['setSiteId', '3']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+          })();
+        </script>
+        <!-- End Matomo Locale Code -->
     </head>
     <body>
         <div class="d-hide"><a href="#contenuto">Vai al contenuto della pagina</a></div>
