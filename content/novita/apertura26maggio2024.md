@@ -3,7 +3,7 @@ title: "Domenica 26 maggio 2024: esplorare il Bosco Didattico alla scoperta dell
 description: 'Visite guidate al Bosco alla scoperta delle farfalle con la naturalista Silvia Ghidotti' 
 keywords: "boscodidattico, castelleone, apertura, ecomuseo, provincia, cremona, ambiente, farfalle"
 date:    2024-05-22T10:16:00+02:00
-lastmod: 2024-22-15T10:16:00+02:00
+lastmod: 2024-05-22T10:16:00+02:00
 draft: false
 ---
 **Domenica 26 maggio** apre al pubblico il Bosco Didattico di Castelleone.
